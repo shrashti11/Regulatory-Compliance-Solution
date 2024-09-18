@@ -1,6 +1,5 @@
 Flask==2.3.2
 email-validator==1.2.1  # Required for Flask's email handling
-smtplib==0.1.1          # Used for sending emails (included in Python standard library, but mentioned)
 transformers==4.31.0     # For Hugging Face's NLP models like summarization and NER
 torch==2.0.1            # Required by the transformers library for model inference
 SQLAlchemy==2.0.0       # For handling SQLite database
